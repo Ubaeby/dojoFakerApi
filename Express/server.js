@@ -32,8 +32,8 @@ const createCompany = () => {
 }
 
 const showBoth = {
-    ...createCompany(),
-    ...createUser()
+    company: createCompany(),
+    user: createUser()
 }
 
 console.log(showBoth)
